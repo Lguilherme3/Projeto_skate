@@ -1,11 +1,7 @@
-var menuH = document.querySelector(".cabecalho__menu")
+var botaoMenu = document.querySelector(".cabecalho__menu")
 
-var menuSome = document.querySelector(".menu-lateral")
+var menu = document.querySelector(".menu-lateral")
 
-menuH.addEventListener('click' , function(){
-    if(menuSome.style.display == 'none') {
-        menuSome.style.display = 'block'
-    } else {
-        menuSome.style.display = 'none'
-    }
+botaoMenu.addEventListener('click' , () => {
+    menu.classList.toggle('menu-lateral--ativo')
 })
