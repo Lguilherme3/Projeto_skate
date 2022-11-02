@@ -1,7 +1,3 @@
-# Projeto_skate
- Projeto_skate
-
-
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
